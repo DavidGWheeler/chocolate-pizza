@@ -1,0 +1,12 @@
+p {
+  text-indent: 50px;
+}
+
+.strikethrough:checked + label {
+  text-decoration:line-through;
+}
+
+#list-bg {
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+}

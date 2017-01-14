@@ -6,7 +6,60 @@ p {
   text-decoration:line-through;
 }
 
-#list-bg {
-  background-image: url("img/list-bg.png");
+.list-bg {
+  width: 960px;
+  background-image: url("img/list-bg.png  ") center;
   background-repeat: no-repeat;
+}
+
+.foot-line {
+  width: 46%;
+  font-size: 1em;
+  display: inline-block;
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+#column1 {
+  margin-left: 2.5%;
+  margin-right: 0%;
+  padding: 1%;
+  float: left;
+  width: 42%;
+  height: 20%;
+  display: inline-block;
+}
+
+#column2 {
+  margin-left: 2.5%;
+  margin-right: 0%;
+  padding: 1%
+  float: right;
+  width: 42%;
+  height: 20%;
+  display: inline;
+}
+
+ul li {
+  list-style: none;
+  list-style-type: none;
+
+}
+
+.line-div {
+  display: inline;
+  position:relative;
+  content: url("img/small-logo.png");
+  height: 33px;
+  width: 31px;
+}
+
+footer {
+  text-align: center;
+  font-size: .80em;
+  display: inline-block;
+  color: grey;
+  width: 24.1%;
+  position: relative;
+  margin: 2.3% 36%;
 }

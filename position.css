@@ -92,7 +92,7 @@ h2 {
 }
 
 .about-blurb  {
-  padding: 0em 0.188em 0em 1.875em;
+  padding: 0.2em 0.0em 0em 0.1em;
   max-width: 70%;
   margin: 0em;
 }
@@ -136,6 +136,11 @@ h2 {
 
 .headshot {
   margin: 0% 1% 0% 0%;
+}
+
+footer {
+  text-align: center;
+  position: relative;
 }
 
 .footer-div {

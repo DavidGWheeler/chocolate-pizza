@@ -40,6 +40,10 @@ body {
   cursor: pointer;
 }
 
+.transition {
+  transition: all .5s ease-in;
+}
+
 a:active,
 a:hover {
   outline: 0;
@@ -82,7 +86,6 @@ li {
   color: #FAFAFA;
   background-color: #bd4621;
   border-color: #750808;
-  transition: all .5s ease-in;
   text-decoration: none;
 }
 

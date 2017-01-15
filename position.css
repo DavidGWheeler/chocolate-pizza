@@ -1,5 +1,34 @@
 /*positions for index*/
 
+h1 {
+
+}
+
+h2 {
+  margin: -15px 0 0 52px;
+}
+
+.logo-box {
+  width: 19em;
+  height: 10em;
+}
+
+.logo-img {
+  margin-top: 0.01em; 
+}
+
+.top-blurb {
+  height: 12em;
+}
+
+.lineup {
+  margin-top: -0.15em;
+}
+
+.social {
+
+}
+
 .left {
   float: left;
 }

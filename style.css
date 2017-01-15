@@ -1,9 +1,14 @@
-/*p {
-  text-indent: 50px;
-}*/
+
+
+.logo-text {
+  font-family: 'Abel', sans-serif;
+
+}
 
 .logo-font {
-  font-family: "yellowtailregular";
+  font-family: 'Yellowtail', cursive;
+  padding: 0.0em -0.1em;
+  margin: -0.2em 0.0em 0.2em;
 }
 
 /*ingredients list*/

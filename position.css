@@ -1,0 +1,93 @@
+/*positions for index*/
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box; }
+
+h2 {
+  margin: -15px 0 0 52px;
+}
+
+.logo-box {
+  width: 14em;
+  height: 5em;
+  padding: 2em;
+}
+
+.logo-img {
+  margin-top: 0.01em;
+}
+
+.top-blurb {
+ height: 7.4em;
+}
+
+.blog-title {
+  margin: 0em 0em 0.5em 0em;
+}
+
+.blog-text {
+  text-indent: 2.5em;
+  max-width: 49em;
+  line-height: 1.25em;
+  margin: 0em .2em 0em 0em;
+}
+
+.blog-title-block {
+  height: 6em;
+}
+
+.line-div {
+  position:absolute;
+  content: url("img/small-logo.png");
+  height: 33px;
+  width: 31px;
+  margin: 1.9% 47%;
+  padding: 0.0em 0.2em;
+}
+
+.lineup {
+  margin-top: -0.15em;
+}
+
+.social {
+ padding: 2em;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.block {
+  display: block;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+
+}
+
+
+.headshot {
+  margin: 0% 1% 0% 0%;
+}

@@ -1,12 +1,95 @@
-p {
-  text-indent: 50px;
+.blog-title {
+  font-family: 'Oswald', sans-serif;
 }
 
+.blog-text {
+  color: grey;
+}
+
+
+.hash-line {
+  height: 1em;
+  background: url("img/hash.png") repeat-x 0 0;
+  border: 0;
+}
+
+.logo-text {
+  font-family: 'Abel', sans-serif;
+
+}
+
+.logo-font {
+  font-family: 'Yellowtail', cursive;
+  padding: 0.0em -0.1em;
+  margin: -0.2em 0.0em 0.2em;
+}
+
+/*ingredients list*/
 .strikethrough:checked + label {
   text-decoration:line-through;
 }
 
-#list-bg {
+label {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 23px;
+}
+
+
+.list-bg {
+  height: 305px;
   background-image: url("img/list-bg.png");
   background-repeat: no-repeat;
+}
+
+.column {
+  margin-left: 6%;
+  margin-right: 2%;
+  margin-top: 2%;
+  line-height: 1.85em;
+  padding: 1%;
+  width: 40%;
+  height: 80%;
+}
+
+/*remove bullets*/
+li {
+  list-style: none;
+  list-style-type: none;
+
+}
+
+/*About the author*/
+h3 {
+  font-family: inherit;
+  font-size: 24px
+}
+
+.headshot img {
+  max-width: 100%;
+  border: 0;
+}
+
+.about-auth {
+  font-family: 'Droid Serif', serif;
+  height: 10%;
+  width: 100%;
+  border-top: 1px;
+}
+
+.foot-line {
+  width: 100%;
+  margin: -1% 0%;
+  font-size: 1em;
+  display: inline-block;
+  background-color: lightgrey;
+}
+
+footer {
+  text-align: center;
+  font-size: .80em;
+  display: inline-block;
+  color: grey;
+  width: 24.1%;
+  position: relative;
+  margin: 2.3% 36%;
 }

@@ -1,0 +1,42 @@
+/*positions for index*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.block {
+  display: block;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box; }
+
+.headshot {
+  margin: 0% 2% 0% 10%;
+}

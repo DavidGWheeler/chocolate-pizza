@@ -1,54 +1,74 @@
-p {
+/*p {
   text-indent: 50px;
+}*/
+
+.logo-font {
+  font-family: "yellowtailregular";
 }
 
+/*ingredients list*/
 .strikethrough:checked + label {
   text-decoration:line-through;
 }
 
+label {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 23px;
+}
+
+
 .list-bg {
-  width: 960px;
-  background-image: url("img/list-bg.png  ") center;
+  height: 305px;
+  background-image: url("img/list-bg.png  ");
   background-repeat: no-repeat;
 }
 
-.foot-line {
-  width: 46%;
-  font-size: 1em;
-  display: inline-block;
-  background-color: lightgrey;
-  overflow: hidden;
-}
-
-#column1 {
-  margin-left: 2.5%;
-  margin-right: 0%;
+.column {
+  margin-left: 6%;
+  margin-right: 2%;
+  margin-top: 2%;
+  line-height: 1.85em;
   padding: 1%;
-  float: left;
-  width: 42%;
-  height: 20%;
-  display: inline-block;
+  width: 40%;
+  height: 80%;
 }
 
-#column2 {
-  margin-left: 2.5%;
-  margin-right: 0%;
-  padding: 1%
-  float: right;
-  width: 42%;
-  height: 20%;
-  display: inline;
-}
-
-ul li {
+/*remove bullets*/
+li {
   list-style: none;
   list-style-type: none;
 
 }
 
+/*About the author*/
+h3 {
+  font-family: inherit;
+  font-size: 24px
+}
+
+.headshot img {
+  max-width: 100%;
+  border: 0;
+}
+
+.about-auth {
+  font-family: 'Droid Serif', serif;
+  font-size: 16px
+  height: 10%;
+  width: 100%;
+  border-top: 1px;
+}
+
+.foot-line {
+  width: 100%;
+  margin: 1% 0%;
+  font-size: 1em;
+  display: inline-block;
+  background-color: lightgrey;
+}
+
 .line-div {
-  display: inline;
-  position:relative;
+  position:absolute;
   content: url("img/small-logo.png");
   height: 33px;
   width: 31px;

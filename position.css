@@ -1,5 +1,12 @@
 /*positions for index*/
 
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box; }
 
 h2 {
   margin: -15px 0 0 52px;
@@ -39,7 +46,7 @@ h2 {
   content: url("img/small-logo.png");
   height: 33px;
   width: 31px;
-  margin: 0.7% 47%;
+  margin: 1.9% 47%;
   padding: 0.0em 0.2em;
 }
 
@@ -80,14 +87,7 @@ h2 {
 
 }
 
-.wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 0px;
-  box-sizing: border-box; }
 
 .headshot {
-  margin: 0% 2% 0% 10%;
+  margin: 0% 1% 0% 0%;
 }

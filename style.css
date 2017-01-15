@@ -1,4 +1,8 @@
-
+.hash-line {
+  height: 6px;
+  background: url("img/hash.png") repeat-x 0 0;
+  border: 0;
+}
 
 .logo-text {
   font-family: 'Abel', sans-serif;
@@ -24,7 +28,7 @@ label {
 
 .list-bg {
   height: 305px;
-  background-image: url("img/list-bg.png  ");
+  background-image: url("img/list-bg.png");
   background-repeat: no-repeat;
 }
 

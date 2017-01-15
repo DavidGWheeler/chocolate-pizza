@@ -1,3 +1,12 @@
+h3 {
+  font-family: inherit;
+  font-size: 24px
+}
+
+body {
+  font-family: 'droid_serifregular', serif;
+}
+
 .blog-title {
   font-family: 'Oswald', sans-serif;
 }
@@ -20,13 +29,20 @@
 
 .logo-font {
   font-family: 'Yellowtail', cursive;
-  padding: 0.0em -0.1em;
-  margin: -0.2em 0.0em 0.2em;
 }
 
 /*ingredients list*/
 .strikethrough:checked + label {
   text-decoration:line-through;
+}
+
+.point {
+  cursor: pointer;
+}
+
+a:active,
+a:hover {
+  outline: 0;
 }
 
 label {
@@ -36,19 +52,9 @@ label {
 
 
 .list-bg {
-  height: 305px;
+  height: 16em;
   background-image: url("img/list-bg.png");
   background-repeat: no-repeat;
-}
-
-.column {
-  margin-left: 6%;
-  margin-right: 2%;
-  margin-top: 2%;
-  line-height: 1.85em;
-  padding: 1%;
-  width: 40%;
-  height: 80%;
 }
 
 /*remove bullets*/
@@ -58,11 +64,6 @@ li {
 
 }
 
-/*About the author*/
-h3 {
-  font-family: inherit;
-  font-size: 24px
-}
 
 .headshot img {
   max-width: 100%;
@@ -73,7 +74,16 @@ h3 {
   font-family: 'Droid Serif', serif;
   height: 10%;
   width: 100%;
-  border-top: 1px;
+  border-top: 0.063em;
+}
+
+.share {
+  font-family: sans-serif;
+  color: #FAFAFA;
+  background-color: #bd4621;
+  border-color: #750808;
+  transition: all .5s ease-in;
+  text-decoration: none;
 }
 
 .foot-line {
@@ -86,10 +96,6 @@ h3 {
 
 footer {
   text-align: center;
-  font-size: .80em;
-  display: inline-block;
   color: grey;
-  width: 24.1%;
   position: relative;
-  margin: 2.3% 36%;
 }

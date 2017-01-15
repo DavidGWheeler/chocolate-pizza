@@ -54,6 +54,10 @@ label {
   font-size: 23px;
 }
 
+.grey-text {
+  color: grey;
+}
+
 
 .list-bg {
   height: 16em;
@@ -95,10 +99,4 @@ li {
   font-size: 1em;
   display: inline-block;
   background-color: lightgrey;
-}
-
-footer {
-  text-align: center;
-  color: grey;
-  position: relative;
 }
